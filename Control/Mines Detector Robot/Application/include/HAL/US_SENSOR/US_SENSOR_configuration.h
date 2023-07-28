@@ -1,0 +1,18 @@
+/*
+ * US_SENSOR_configuration.h
+ *
+ *  Created on: Sep 23, 2022
+ *      Author: Mario Ezzat
+ */
+
+#ifndef INCLUDE_HAL_US_SENSOR_US_SENSOR_CONFIGURATION_H_
+#define INCLUDE_HAL_US_SENSOR_US_SENSOR_CONFIGURATION_H_
+
+#define US_PORT PORTC
+#define TRIG_PIN PIN0
+#define TIRG_DELAY_US 10
+#define READING_NO 20
+/*FROM TIMER CONFIGURATION THE OCR+1*/
+#define OVF_TICKS 100
+
+#endif /* INCLUDE_HAL_US_SENSOR_US_SENSOR_CONFIGURATION_H_ */

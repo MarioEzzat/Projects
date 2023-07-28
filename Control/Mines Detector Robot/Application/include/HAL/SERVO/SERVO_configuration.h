@@ -1,0 +1,17 @@
+/*
+ * SERVO_configuration.h
+ *
+ *  Created on: Aug 27, 2022
+ *      Author: Mario Ezzat
+ */
+
+#ifndef INCLUDE_HAL_SERVO_SERVO_CONFIGURATION_H_
+#define INCLUDE_HAL_SERVO_SERVO_CONFIGURATION_H_
+/* angle : ANGLE_0 - ANGLE_45 - ANGLE_90 - ANGLE_135 - ANGLE_180 */
+#define START_ANGLE_1A	ANGLE_0
+#define END_ANGLE_1A	ANGLE_180
+
+#define START_ANGLE_1B 	ANGLE_45
+#define END_ANGLE_1B 	ANGLE_135
+
+#endif /* INCLUDE_HAL_SERVO_SERVO_CONFIGURATION_H_ */
